@@ -43,11 +43,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html{ box-sizing: border-box;}
+html{ box-sizing: border-box; font-size: 16px; scroll-behavior: smooth;}
 /*LINKS*/
 a {
-  text-decoration: none;color: blanchedalmond;
-  outline: none; transition: color 0.5s easy;
+  text-decoration: none;color: green;
+  outline: none; transition: color 2s easy;
 }
 a:hover {color: red;   
 }
@@ -56,17 +56,18 @@ button {
   border: none;
 }
 input {border:none; outline: none;}
- h1, h2 {font-weight: 800bold;} 
-
+ 
+h1 {font-weight: 800bold; font-size: 2em;} 
+h2 {font-weight: 600; font-size: 1.5em;}   
 
 /* BASIC FORMATTING */
-html { font-size: 16px; scroll-behavior: smooth;}
 body {font-size: 1em;font-family: sans-serif;color: #212121;
       line-height: 1.5;
 }
 p {margin-bottom: 1em; /* 1em= 16px in this case*/}
-
-
+img {border-radius: 50%; height: 10em; width: 10em;}
+small {font-size:14px; font-weight: lighter;}
+aside {background-color: silver;}
 
 /*HELPER CLASSES*/
 
