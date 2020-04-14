@@ -20,6 +20,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+ html {box-sizing: border-box;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -43,7 +44,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html{ box-sizing: border-box; font-size: 16px; scroll-behavior: smooth;}
+html{  font-size: 16px; scroll-behavior: smooth;}
 /*LINKS*/
 a {
   text-decoration: none;color: green;
@@ -70,6 +71,28 @@ small {font-size:14px; font-weight: lighter;}
 aside {background-color: silver;}
 
 /*HELPER CLASSES*/
+
+/*typography*/
+
+/*color*/
+
+/*margins*/
+
+.mt-1 {margin-top: 1em;}
+.mt-2 {margin-top: 1.25em;}
+.mt-3 {margin-top: 1.5em;}
+.mt-4 {margin-top: 1.75em;}
+.mt-5 {margin-top: 2.0em;}
+.mr-1 {margin-right: 1em;}
+.mr-2 {margin-right: 1.25em;}
+.mr-3 {margin-right: 1.5em;}
+.mr-4 {margin-right: 1.75em;}
+.mr-5 {margin-right: 2em;}
+/*paddings*/
+
+/*backgrounds*/
+
+
 
 /*LAYOUT*/
 
