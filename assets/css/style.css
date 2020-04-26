@@ -65,7 +65,9 @@ input {border:solid silver; outline: none;}
 /* BASIC FORMATTING */
 
 
-h1 {font-weight: 900; font-size: 2.5em;
+h1 {
+	
+	font-weight: 900; font-size: 2.5em;
 display: block; color: #292929;
 letter-spacing: 0.5rem; text-transform: uppercase;
 } 
@@ -86,7 +88,7 @@ img {}
 
 small {font-size:14px; font-weight: lighter;
 }
-
+ 
 
 
 
@@ -102,7 +104,11 @@ small {font-size:14px; font-weight: lighter;
   width: 100%;
 	max-width: 280px; 
 	height: 100vh;
-  }
+	}
+	
+	.main {display: flex;
+		justify-content: center; align-items: center;margin-left: 5rem;margin-right: 5rem;}
+		
 
 .blog-name {font-size: 2em; font-weight:    bold;}
 .navbar {position: relative; align-items: center;}
@@ -149,7 +155,8 @@ small {font-size:14px; font-weight: lighter;
 		position: relative;
 		flex-basis: 0;
     flex-grow: 1;
-    text-align: center;
+		text-align: center;
+		margin-top: 2rem;
 }
 
 
@@ -166,7 +173,8 @@ small {font-size:14px; font-weight: lighter;
 /*color*/
 
 .backgroundblue {background-color: blue;color: #9c9c9c; margin-bottom: 0rem;}
-
+.yellow {color: yellow; 
+letter-spacing: 0.15rem;}
 /*flex*/
 
 
@@ -240,7 +248,7 @@ small {font-size:14px; font-weight: lighter;
 
 .asaidimage{border-radius: 50%; height: 10rem; vertical-align: middle;}
 
-.myimage {height: 12em; width: 15em; border-radius: 30%;}
+.myimage {height: 22em; width: 30em; border-radius: 30%;}
 
 .blogimage { 
 	width: 100%;
