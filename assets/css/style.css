@@ -50,6 +50,7 @@ table {
 html {  
 	font-size: 16px; scroll-behavior: smooth;
 }
+
 /*LINKS*/
 a {
   text-decoration: none;color: green;
@@ -101,6 +102,8 @@ small {
 
 
 /*HELPER CLASSES*/
+
+
 .aside {
 	position: fixed;
 	top: 0;
@@ -112,8 +115,8 @@ small {
 	max-width: 280px; 
 	height: 100vh;
 	}
-	
-	.main {
+	/*THIS IS FOR MAIN CONTENET*/
+.main {
 		display: flex;
 		justify-content: center; align-items: center;margin-left: 5rem;margin-right: 5rem;
 	}
@@ -125,7 +128,7 @@ small {
 .navbar {
 	position: relative;   align-items: center;
 }
-
+/*THIS SEPARATES MAIN FROM ASAID*/
 .mainseparation{
 	padding-left:280px ; background: #fff;
 }
@@ -137,7 +140,7 @@ small {
 .list1 {
 	display: inline; margin-right: 2rem;margin-left: 2rem;
 }
-
+/*THIS CONTAINS MAIN CONTENT*/
 .container {
 	box-sizing: border-box;
 	width: 100%;
@@ -147,7 +150,8 @@ small {
 	margin-bottom: 3em;
 	margin-left: auto;
 }
-	
+	/*THIS IS MAKING FORM OF PLACEHOLDER*/
+
 .form-control {
 	padding:.375rem.75rem;
 	font-size: 1rem;
@@ -174,7 +178,7 @@ small {
 .blogbody {
 	  display: block;
 }
-	 
+	 /*THIS IS FOR "NEXT" BUTTON2*/
 .next {
 	  background: #5FCB71;
     border-radius: 20%;
@@ -213,10 +217,6 @@ small {
 
 
 /*color*/
-
-.backgroundblue {
-	background-color: blue;color: #9c9c9c; margin-bottom: 0rem;
-}
 
 .yellow {
 	color: yellow; 
@@ -289,6 +289,9 @@ small {
 
 /*backgrounds*/
 
+.backgroundblue {
+	background-color: blue;color: #9c9c9c; margin-bottom: 0rem;
+}
 /*images*/
 
 .iimage {
@@ -297,6 +300,8 @@ small {
 
 .asaidimage{
 	border-radius: 50%; height: 10rem; vertical-align: middle;max-width: 100%;}
+
+	/*THIS IMAGE IS IN "ABOUT"*/
 
 .myimage {
 	height: auto; width: 30em; border-radius: 30%;max-width: 100%;
@@ -314,7 +319,6 @@ small {
 
 /*MEDIA  QUERIES*/
 @media (max-width: 768px)
- {
-	.container {
-		width: 100%; font-size: 0.8rem;}
+ { .container {
+	width: 100%; font-size: 0.8rem;}
 }
